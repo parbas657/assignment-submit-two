@@ -1,0 +1,205 @@
+body {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(23, 156, 81);
+}
+
+.nav-imag {
+    display: flex;
+    align-items: center;
+}
+
+.nav-imag>img {
+    width: 45px;
+    height: 25px;
+}
+
+.nav-imag h1 {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.text-style {
+    color: #ff42a5;
+    padding-left: 5px;
+}
+
+.list-style>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-style li {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+
+.banner-container {
+
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    border: 2px solid red;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .banner-text {
+    width: 50%;
+    height: auto;
+    line-height: 0px;
+    border: 2px solid red;
+
+} */
+
+.banner-img-size {
+    width: 50%;
+    height: auto;
+}
+
+.play-style {
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.banner-text h1 {
+    background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.btn-style {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #ffff;
+
+}
+
+.btn-styleing {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #ffff;
+    background-color: #4ec5f7;
+    margin-left: 10px;
+}
+
+.primary {
+    background-color: #ff42a5;
+}
+
+
+
+.funny-video-heading{
+    text-align: center;
+    line-height: 0px;
+}
+.funny-video-heading h4{
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 10px;
+}
+
+.funny-video-text{
+    background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.funny-video-image{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.funny-video-image img{
+    width:80%;
+    height: 75%;   
+}
+
+
+.headline-content{
+    width: 45%;
+    height: auto;
+    border: 2px solid green;
+    text-align: end;
+}
+.download-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px dashed green;
+}
+
+.anniversery-text{
+    background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;  
+}
+.anniversery-image{
+   
+    width: 45%;
+    height: auto;
+    border: 2px solid red;
+}
+.download-image01-size{
+    width: 75%;
+    height: auto;
+}
+.download-image02-size{
+ margin-top: -300px; 
+ margin-left: -80px; 
+}
+
+
+.footer-section{
+    width: auto;
+    height: 300px;
+    background-color: #190505;
+    color: #ffff;
+    text-align: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer-text{
+    text-align: center;
+}
+.footer-logo img{
+    width: 45px;
+    height: 25px;
+}
+.footer-logo h1{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 30px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    gap: 15px;
+}
