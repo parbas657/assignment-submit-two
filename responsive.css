@@ -1,0 +1,72 @@
+
+@media screen and (max-width:600px) {
+    .nav-container {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .list-style>ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .banner-container {
+        height: 500px;
+        flex-direction: column;
+
+    }
+    .funny-video-heading{
+       text-align: center;
+        line-height: 0px;
+    }
+    .funny-video-heading h4{
+      text-align: center;
+      }
+    .funny-video-text{
+        width: 200px;
+       text-align: center;
+    
+    }
+
+    .funny-video-image {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .download-section{
+        height: auto;
+        margin-bottom: 80px;
+       flex-direction: column; 
+    }
+    .main-container {
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+    /* .main-image {
+        flex-direction: column;
+    } */
+    .footer-section{
+        height: 900px;
+    }
+    .footer-text-style{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       justify-content: center; 
+      
+    }
+    .footer-icon{
+      display: flex;
+    }
+    .footer-title{
+      
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+    }
+    
+}
+
